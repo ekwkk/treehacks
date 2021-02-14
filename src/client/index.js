@@ -15,10 +15,10 @@ ReactDOM.render(
     <Switch>
       <Route exact path='/' component={App} />
       <Route path='/articles' component={Articles} />
-      <Route path='/faq' component={Faq} />
       <Route path='/quiz' component={QuizDashboard} />
       <Route path='/quiz1' component={() => <Quiz quiz={quiz1} />} />
       <Route path='/quiz2' component={() => <Quiz quiz={quiz2} />} />
+      <Route path='/faq' component={Faq} />
       <Route path='/consultation' component={Consultation} />
     </Switch>
   </Router>,

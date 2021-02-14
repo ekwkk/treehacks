@@ -12,7 +12,6 @@ const Checkbook = new CheckbookAPI({
 const app = express();
 
 app.use(express.static("dist"));
-app.get("/api/getUsername", (req, res) => res.send({ username: os.userInfo().username }));
 
 // Send checks after quiz completion
 app.get("/api/sendCheck", (req, res) => {
@@ -33,6 +32,7 @@ app.get("/api/sendCheck", (req, res) => {
   );
 });
 
+// Request for invoice for donations and consultation tips
 app.get("/api/sendInvoice", (req, res) => {
   if (req.query.subscription === "") {
     Checkbook.invoices.sendInvoice(
@@ -69,7 +69,5 @@ app.get("/api/sendInvoice", (req, res) => {
     );
   }
 });
-
-// Request for invoice for donations and consultation tips
 
 app.listen(process.env.PORT || 8080, () => console.log(`Listening on port ${process.env.PORT || 8080}!`));

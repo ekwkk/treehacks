@@ -12,7 +12,7 @@ export default class Menus extends Component {
       <div>
         <Navbar style={{ color: "white" }}>
           <LinkContainer to='/' style={{ padding: "1rem" }}>
-            <Navbar.Brand>Homie</Navbar.Brand>
+            <Navbar.Brand>Homies</Navbar.Brand>
           </LinkContainer>
 
           <Nav className='justify-content-end' style={{ width: "100%" }}>
