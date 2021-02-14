@@ -4,8 +4,8 @@ const CheckbookAPI = require("checkbook-api");
 const api = require("./api.json");
 
 const Checkbook = new CheckbookAPI({
-  api_key: api.API_KEY,
-  api_secret: api.API_SECRET,
+  api_key: API_KEY,
+  api_secret: API_SECRET,
   env: "sandbox",
 });
 
