@@ -47,7 +47,6 @@ export default class App extends Component {
         <Navbar bg='light' variant='light'>
           <Container>
             🌸 🌸 Please consider donating to us by filling out your email in the donation form on the right! ➡️ <br />{" "}
-            Thanks to...
             <Form className='form-container'>
               <Form.Group controlId='formBasicText'>
                 <Form.Label>Name</Form.Label>

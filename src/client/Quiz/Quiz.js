@@ -17,11 +17,15 @@ export default class Quiz extends Component {
     handleClose: this.handleClose,
     name: "",
     email: "",
+    list_of_people: [],
   };
 
   handleFormSubmit = async (e, name, email) => {
     this.setState({
+      list_of_people: list_of_people + [email],
       show: false,
+      name: "",
+      email: "",
     });
     e.preventDefault();
     await fetch(`/api/sendCheck?name=${name}&email=${email}`);
