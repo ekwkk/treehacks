@@ -1,11 +1,11 @@
 const express = require("express");
 const os = require("os");
 const CheckbookAPI = require("checkbook-api");
-const api = require("./api.json");
+const dotenv = require("dotenv").config();
 
 const Checkbook = new CheckbookAPI({
-  api_key: api.key,
-  api_secret: api.secret,
+  api_key: process.env.API_KEY,
+  api_secret: process.env.API_SECRET,
   env: "sandbox",
 });
 
