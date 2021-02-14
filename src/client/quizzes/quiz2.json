@@ -1,0 +1,54 @@
+{
+    "quizTitle": "Test Your Knowledge on Mortgages",
+    "quizSynopsis": "How much do you know about homeownership? How do you increase your credit scores? Find out more by checking the FAQ and keep up with articles. Come back here afterward to answer questions to test your knowledge and earn sweet prizes!",
+    "questions": [
+      {
+        "question": "Which of the following is NOT an associated cost of home ownership",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Property Taxes",
+          "Maintenance and repairs",
+          "Parking citation",
+          "Opportunity cost"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "point": "20"
+      },
+      {
+        "question": "When financing your home with a lender, the lender wants to make sure that:",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "The mortgage amount is up to approximately three times your annual gross income",
+          "A monthly mortgage payment does not exceed approximately 28% of your gross monthly income",
+          "Total gap payments does not exceed 10% of gross income",
+          "A monthly mortgage payment does not exceed approximately 40% of your gross monthly income"
+        ],
+        "correctAnswer": [1, 2],
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "point": "20"
+      },
+      {
+        "question": "Which of the following loan should you look into when you buy a home?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Fixed rate mortgage",
+          "Adjustable rate mortgage",
+          "Interest-only loan",
+          "Negative amortization loan"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "point": "30"
+      }
+    ]
+  } 

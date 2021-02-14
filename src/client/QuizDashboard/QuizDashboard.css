@@ -1,0 +1,5 @@
+.cards {
+  padding: 5% 12%;
+  display: flex;
+  flex-direction: row;
+}

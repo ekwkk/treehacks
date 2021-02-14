@@ -1,0 +1,24 @@
+.article {
+  left: 0;
+  width: 100%;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-credit {
+  margin: 0.5rem;
+  margin-right: 0;
+  display: inline-block;
+}
+
+.left-column {
+  width: 70%;
+}
+
+.right-column {
+  padding: 0% 3%;
+  width: 30%;
+}
